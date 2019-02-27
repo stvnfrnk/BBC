@@ -171,6 +171,41 @@ iframe {
 }
 
 
+.bg-contact3 {
+  width: 100%;  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-contact3 {
+  width: 100%;  
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: rgba(54,42,146,0.5);
+  background: -webkit-linear-gradient(45deg, rgba(54,42,146,0.5), rgba(229,57,53,0.5));
+  background: -o-linear-gradient(45deg, rgba(54,42,146,0.5), rgba(229,57,53,0.5));
+  background: -moz-linear-gradient(45deg, rgba(54,42,146,0.5), rgba(229,57,53,0.5));
+  background: linear-gradient(45deg, rgba(54,42,146,0.5), rgba(229,57,53,0.5));
+}
+
+.wrap-contact3 {
+  width: 1000px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 40px 25px 40px 25px;
+  
+}
+
 /*------------------------------------------------------------------
 [  ]*/
 
