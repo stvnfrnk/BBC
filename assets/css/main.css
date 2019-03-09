@@ -2395,9 +2395,13 @@ input, select, textarea {
 			}
 
 			.main > header p {
+				font-size: 0.8em;
 				margin: 2em 0 0 0;
 				padding: 0;
 				text-align: center;
+				color:  #666666;
+
+
 			}
 
 		.main > .content {
@@ -2447,6 +2451,98 @@ input, select, textarea {
 				background: #fff;
 			}
 
+
+/* Main Sections for Impressum */
+
+	.main-impress {
+		position: relative;
+		margin: 0;
+	}
+
+		.main-impress > h1 {
+			font-size: 2em;
+			font-weight: 100;
+			margin-bottom: 1em;
+			text-align: center;
+		}
+
+		.mai-impress > header {
+			background: #fff;
+			text-align: center;
+			padding: 3em 0 3em 0;
+			margin: 0;
+		}
+
+			.main-impress > header h1 {
+				font-size: 1.2em;
+				font-weight: 100;
+				margin-bottom: 0;
+				padding: 0.5em 0 2em 0;
+				text-align: center;
+			}
+
+			.main-impress > header h2 {
+				font-size: 1.7em;
+				font-weight: 100;
+				margin-bottom: 0;
+				text-align: center;
+			}
+
+			.main-impress > header p {
+				margin: 2em 0 0 0;
+				padding: 0;
+				text-align: left;
+				color:  #444444;
+
+			}
+
+		.main-impress > .content {
+			padding: 6em 0 6em 0;
+		}
+
+			.main-impress > .content h3 {
+				font-size: 1.5em;
+			}
+
+			.main-impress > .content.dark {
+				background: #433;
+			}
+
+				.main-impress > .content.dark h1 {
+					font-size: 1.8em;
+					font-weight: 100;
+					margin-bottom: 0;
+					text-align: center;
+					padding: 0em 0 1em 0;
+				}
+
+				.main-impress > .content.dark h2 {
+					font-size: 1.1em;
+					font-weight: 100;
+					margin-bottom: 0;
+					text-align: center;
+					padding: 0em 0 1em 0;
+				}
+
+			.main-impress > .content.style1 {
+				/*background-image: url("images/overlay.png"), url("../../images/hand.jpg");*/
+				background: url("") top right no-repeat, url("") bottom left no-repeat, url("") bottom left no-repeat, url(""), linear-gradient(45deg, #A8BFFF 0%, #884D80 100%);
+
+			}
+
+			.main-impress > .content.style2 {
+				background: url("") top right no-repeat, url("") bottom left no-repeat, url(""), linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+			}
+
+			.main-impress > .content.style3 {
+				background: url("") top right no-repeat, url("") bottom left no-repeat, url(""), linear-gradient(225deg, #A8BFFF 0%, #884D80 100%);
+			}
+
+			.main-impress > .content.style4 {
+				padding-top: 0;
+				background: #fff;
+			}
+
 /* #b39c68, #a56365, #412e4c);
 /* Footer */
 
@@ -2469,6 +2565,29 @@ input, select, textarea {
 			}
 
 		#footer ul.icons a {
+			box-shadow: inset 0 0 0 1px #d6d6d6;
+		}
+
+/* Footer */
+
+	#footer-2 {
+		position: relative;
+		margin: 0;
+		text-align: center;
+		padding: 2em 0 0 0;
+	}
+
+		#footer-2 .copyright {
+			margin-top: 3em;
+			font-size: 0.8em;
+			color: #aaa;
+		}
+
+			#footer-2 .copyright a {
+				color: inherit;
+			}
+
+		#footer-2 ul.icons a {
 			box-shadow: inset 0 0 0 1px #d6d6d6;
 		}
 
@@ -2640,6 +2759,7 @@ input, select, textarea {
 
 			ul.icons li {
 				padding-left: 0.35em;
+				position: top;
 			}
 
 		/* Menu */
