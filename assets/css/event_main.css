@@ -130,7 +130,14 @@ iframe {
 }
 
 
-
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+  color: #222222;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -198,7 +205,7 @@ iframe {
 }
 
 .wrap-contact3 {
-  width: 900px;
+  width: 1400px;
   border-radius: 15px;
   overflow: hidden;
   padding: 40px 25px 40px 25px;
